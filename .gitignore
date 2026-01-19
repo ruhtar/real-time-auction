@@ -1,0 +1,69 @@
+# =========================
+# .NET / Visual Studio
+# =========================
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# =========================
+# Rider / JetBrains
+# =========================
+.idea/
+*.sln.iml
+
+# =========================
+# VS Code (caso use às vezes)
+# =========================
+.vscode/
+
+# =========================
+# Logs e arquivos temporários
+# =========================
+*.log
+*.tmp
+*.temp
+*.swp
+
+# =========================
+# Build / Publish
+# =========================
+**/bin/
+**/obj/
+**/out/
+**/publish/
+
+# =========================
+# Testes
+# =========================
+TestResults/
+*.trx
+
+# =========================
+# NuGet
+# =========================
+*.nupkg
+# packages/   <-- só ignore se você versionar pacotes localmente (antigo .NET Framework)
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Coverage / Análise
+# =========================
+coverage/
+coverage.*
+*.coverage
+*.coveragexml
+
+# =========================
+# User Secrets / Env
+# =========================
+secrets.json
+appsettings.*.json
+.env

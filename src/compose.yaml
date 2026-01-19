@@ -1,0 +1,7 @@
+﻿services:
+  realtimeauction.webapi:
+    image: realtimeauction.webapi
+    build:
+      context: .
+      dockerfile: RealTimeAuction.WebAPI/Dockerfile
+
